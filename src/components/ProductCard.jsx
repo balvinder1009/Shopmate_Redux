@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { add } from "../store/cartSlice";
+import { add, remove } from "../store/cartSlice";
 // eslint-disable-next-line react/prop-types
 import "./productCard.css";
 import { useEffect, useState } from "react";
@@ -34,7 +34,10 @@ export const ProductCard = ({ product }) => {
         <div className="info">
           <span>${price}</span>
           {isInCart ? (
-            <button onClick={() => dispatch(add(product))} className="remove">
+            <button
+              onClick={() => dispatch(remove(product))}
+              className="remove"
+            >
               Remove
             </button>
           ) : (
