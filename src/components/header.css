@@ -1,0 +1,56 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 10%;
+    border: none;
+    outline: 1px solid #c2c2c2;
+    padding: 12px;
+    border-radius: 6px;
+}
+
+.logoCol_container, .cartCount{
+    flex: 2;
+}
+
+.logoCol_container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cartCount{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 14px;
+}
+
+.logoCol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid black; */
+    gap: 10px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.logo{
+    width: 80px;
+}
+
+.active{
+    background-color: #1679AB;
+    padding: 10px 20px;
+    border: 0;
+    outline: none;
+    border-radius: 6px;
+    color: #fff;
+}

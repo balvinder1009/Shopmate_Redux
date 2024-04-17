@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    color: black;
+}
+section{
+    /* border: 1px solid #e2e2e2; */
+    margin: 6px 10%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+button{
+    border: 0;
+    outline: 1px solid #e2e2e2;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: #fff;
+}
+
+Link{
+    color: black;
+}
